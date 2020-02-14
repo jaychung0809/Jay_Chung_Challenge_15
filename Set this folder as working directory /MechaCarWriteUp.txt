@@ -1,0 +1,41 @@
+MPG Regression
+
+According to our results, our Intercept, Vehicle Length and ground clearance are the variables that are statistically unlikely to provide random amounts of variance to the linear model.
+In addition, the p-value of our regression analysis is 5.35 x 10^-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero
+
+Data suggests that this linear model effectively predicts the mpg of the MechaCar Prototype.The P Value being extremenly smaller than 0.05, it shows that there is a signficant relationship between MPG and Vehicle length and ground clearance. The Intercept also being statistically unlikely, we can reject the assumption that there are other variable was not included in the model. 
+
+
+Suspension Coil Summary
+
+Mean  = 1498.78 , 
+Median = 1500, 
+Standard Deviation = 7.892627,
+Variance = 62.29356
+
+Per the summary statistics table, the variance of 62.29356 does not exceed the 100pound per inch limit which currently meet the design specification. 
+
+
+Suspension Coil T-Test
+
+using the 1 sample t test, the P value is calculated to be 0.06028. 
+Assuming our significance level was the common 0.05, our p-value is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+
+Study Design
+
+With gas prices hiking up,the key metrics that we would focus in to separate our MechaCar from the competition would be the cost advantage due to fuel efficiancy.
+
+The question we would ask is what is there a statistical between the Mechacar's MPG vs MPG of the competition cars. 
+We would compare the mean of a large sample of recorded Mechcar MPG  vs that of other competitiion MPG of similar class.
+
+This would yield in two sample t-test.
+Null hyptohesis: There is no statistical difference between the MPG of Mechacar and that of the competition.
+Alternative hypothesis: There is a statistical difference between the MPG of Mechacar and that of the competition.
+
+
+The data that we would need is a large sample of recorded MPG of the Mechacar over many drives on the highway.
+The other data we would need is the same size sample of recorded MPG of competitor cars (prefarably gas-guzzlers) in the city, to yield a lower MPG.
+
+We would get the averages of both samples, and market the difference of MPG as well as using the two sample test result, rejecting the null hypothesis to back up the claim.
+
